@@ -28,31 +28,36 @@
         android:layout_height="100dp">
 
         <ImageView
-            android:onClick="getColor"
+            android:id="@+id/img1"
+
             android:layout_margin="5dp"
             android:background="#FFEBEE"
             android:layout_width="64dp"
             android:layout_height="64dp"/>
         <ImageView
-            android:onClick="getColor"
+            android:id="@+id/img2"
+            
             android:layout_margin="5dp"
             android:background="#E1BEE7"
             android:layout_width="64dp"
             android:layout_height="64dp"/>
         <ImageView
-            android:onClick="getColor"
+            android:id="@+id/img3"
+
             android:layout_margin="5dp"
             android:background="#D1C4E9"
             android:layout_width="64dp"
             android:layout_height="64dp"/>
         <ImageView
-            android:onClick="getColor"
+            android:id="@+id/img4"
+
             android:layout_margin="5dp"
             android:background="#C5CAE9"
             android:layout_width="64dp"
             android:layout_height="64dp"/>
         <ImageView
-            android:onClick="getColor"
+            android:id="@+id/img5"
+
             android:layout_margin="5dp"
             android:background="#BBDEFB"
             android:layout_width="64dp"
@@ -66,31 +71,36 @@
         android:layout_height="100dp">
 
         <ImageView
-            android:onClick="getColor"
+            android:id="@+id/img6"
+
             android:layout_margin="5dp"
             android:background="#B3E5FC"
             android:layout_width="64dp"
             android:layout_height="64dp"/>
         <ImageView
-            android:onClick="getColor"
+            android:id="@+id/img7"
+
             android:layout_margin="5dp"
             android:background="#B2EBF2"
             android:layout_width="64dp"
             android:layout_height="64dp"/>
         <ImageView
-            android:onClick="getColor"
+            android:id="@+id/img8"
+
             android:layout_margin="5dp"
             android:background="#B2DFDB"
             android:layout_width="64dp"
             android:layout_height="64dp"/>
         <ImageView
-            android:onClick="getColor"
+            android:id="@+id/img9"
+
             android:layout_margin="5dp"
             android:background="#C8E6C9"
             android:layout_width="64dp"
             android:layout_height="64dp"/>
         <ImageView
-            android:onClick="getColor"
+            android:id="@+id/img10"
+
             android:layout_margin="5dp"
             android:background="#F0F4C3"
             android:layout_width="64dp"

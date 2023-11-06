@@ -19,7 +19,7 @@ class Client {
                 .setDateFormat("yyyy-MM-dd'T'HH:mm:ssZ")
                 .create()
             val retrofit = Retrofit.Builder()
-                .baseUrl("http://192.168.56.2/Server/")
+                .baseUrl("https://apiprueba2023.000webhostapp.com/")
                 .addConverterFactory(GsonConverterFactory.create(gson))
                 .client(client)
                 .build()

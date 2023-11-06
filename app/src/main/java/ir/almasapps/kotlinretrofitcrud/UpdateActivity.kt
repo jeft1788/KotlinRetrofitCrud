@@ -8,6 +8,7 @@ import android.os.Bundle
 import android.util.Log
 import android.view.View
 import android.widget.Button
+import android.widget.EditText
 import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
@@ -24,12 +25,14 @@ class UpdateActivity : AppCompatActivity() {
     private lateinit var strColor:String
 
     lateinit var note: Note
-    val update_txtNote = findViewById<TextView>(R.id.update_txtNote)
-    val update_txtTitle = findViewById<TextView>(R.id.update_txtTitle)
+    val update_txtNote = findViewById<EditText>(R.id.update_txtNote)
+    val update_txtTitle = findViewById<EditText>(R.id.update_txtTitle)
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_update)
+        val update_txtNote = findViewById<EditText>(R.id.update_txtNote)
+        val update_txtTitle = findViewById<EditText>(R.id.update_txtTitle)
         progressDialog = ProgressDialog(this)
         progressDialog = ProgressDialog(this)
         val update_btnUpdate = findViewById<Button>(R.id.update_btnUpdate)

@@ -72,7 +72,7 @@ class MainActivity : AppCompatActivity() {
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         if (item.itemId == R.id.menu_refresh) {
-            progressDialog.setMessage("Fetching Data ... \n Please wait ...")
+            progressDialog.setMessage("Cargando Datos ... \n Por favor Espera ...")
             progressDialog.show()
             fetchInformation()
         }
@@ -81,7 +81,7 @@ class MainActivity : AppCompatActivity() {
 
     override fun onResume() {
         super.onResume()
-        progressDialog.setMessage("Fetching Data ... \n Please wait ...")
+        progressDialog.setMessage("Cargando Datos ... \n Por favor Espera ...")
         progressDialog.show()
         fetchInformation()
     }
