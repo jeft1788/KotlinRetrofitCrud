@@ -25,8 +25,8 @@ class UpdateActivity : AppCompatActivity() {
     private lateinit var strColor:String
 
     lateinit var note: Note
-    val update_txtNote = findViewById<EditText>(R.id.update_txtNote)
-    val update_txtTitle = findViewById<EditText>(R.id.update_txtTitle)
+    lateinit var update_txtNote: EditText
+    lateinit var update_txtTitle: EditText
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
